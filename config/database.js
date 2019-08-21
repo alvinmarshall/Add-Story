@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV === "production") {
   module.exports = {
-    mongoUri:"mongodb+srv://Birikorang:bigcheese11@cluster0-pobrh.mongodb.net/test?retryWrites=true&w=majority"
+    mongoUri:"mongodb+srv://Birikorang:bigcheese11@cluster0-pobrh.mongodb.net/learn_story"
   };
 } else {
   module.exports = {
